@@ -3,9 +3,10 @@
 ->task ->user <br>
 2- Identificar RELACIONAMENTOS das propriedades relacionadas as entidades <br>
 task |PROPRIEDADE| <br>
-ID   DESCRIÇÃO    USER    COMPLETED    DATE <br>
-1      x            -       false      07-11-23 <br>
-2      y            -      true        07-11-23 <br>
+| ID | DESCRIÇÃO | USER | COMPLETED | DATE |
+| --- | --- | --- | --- | --- |
+| 1 | x | - | false | 07-11-23 |
+| 2 | y | - | true | 07-11-23 |
 
 USER |PROPRIEDADE| <br>
 | ID | NAME | AGE |
@@ -15,9 +16,11 @@ USER |PROPRIEDADE| <br>
 
 
 USERTASK |TABELA DE RELAÇÃO| <br>
-ID  USER  TASKS 
-1     1     1 
-2     2     1 
+| ID | USER |TASKS |
+| --- | --- | --- |
+| 1 | 1 | 1 |
+| 2 | 2 | 1 |
+
 
 Temos a relação de: <br>
 1x1, que basicamente é 1 para 1, onde user so tem 1 task <br>
