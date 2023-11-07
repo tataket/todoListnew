@@ -33,10 +33,11 @@ NxN, onde N users pode estar associado a N tasks ou N tasks associado a N users 
 ->todoManager <br>
 onde consigo associar cada tipo (user/task) <br>
 E temos algo como se fosse nosso database <br>
+```
 ->List<User> <br>
 ->List<Task> <br>
 ->List<UserTask>.... que vai gerir todas as outras classes, tem que acessar o user e as tasks <br>
-
+```
 4- Metodos -> os tipos de parametros e o que vai retornar <br>
 EX: <br>
 taskManager <br>
