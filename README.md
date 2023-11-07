@@ -8,14 +8,16 @@ ID   DESCRIÇÃO    USER    COMPLETED    DATE <br>
 2      y            -      true        07-11-23 <br>
 
 USER |PROPRIEDADE| <br>
-ID  NAME        AGE <br>
-1   Ricardo     velho <br>
-2    Leo        novo <br>
+| ID | NAME | AGE |
+| --- | --- | --- |
+| 1 | Ricardo | velho |
+| 2 | Leo | novo |
+
 
 USERTASK |TABELA DE RELAÇÃO| <br>
-ID  USER  TASKS <br>
-1     1     1 <br>
-2     2     1 <br>
+ID  USER  TASKS 
+1     1     1 
+2     2     1 
 
 Temos a relação de: <br>
 1x1, que basicamente é 1 para 1, onde user so tem 1 task <br>
